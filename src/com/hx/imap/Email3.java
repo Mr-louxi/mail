@@ -30,8 +30,9 @@ import com.sun.mail.imap.IMAPStore;
     	    String imapServer = "imap.163.com";  
     	    String protocol = "imap"; 
         	String user = "15907132852@163.com";// 邮箱的用户名  
-            String password = "qqgovmzlcrxvjxrr"; // 邮箱的密码  
-      
+//            String password = "qqgovmzlcrxvjxrr"; // 邮箱的密码  
+        	String password = "12345678910qwer";
+        	
             // 创建一个有具体连接信息的Properties对象  
             Properties prop = System.getProperties();  
             prop.put("mail.store.protocol", "imap");  
